@@ -7,10 +7,10 @@
 -D
 
 # Increase kernel buffer size
--b 8192
+-b 16385
 
 # Failure of auditd causes a kernel panic
--f 2
+-f 1
 
 ###########################
 ## DISA STIG Audit Rules ##
