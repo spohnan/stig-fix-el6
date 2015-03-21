@@ -25,7 +25,7 @@ else
 [rhel-dvd]
 name=Red Hat Enterprise Linux $releasever - $basearch - DVD
 baseurl=file:///media/
-enabled=1
+enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 EOF
