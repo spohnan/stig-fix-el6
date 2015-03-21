@@ -111,13 +111,13 @@ X11Forwarding no
 #X11UseLocalhost yes
 #PrintMotd yes
 PrintLastLog yes
-#TCPKeepAlive yes
+TCPKeepAlive yes
 #UseLogin no
 UsePrivilegeSeparation yes
 PermitUserEnvironment no
 #Compression delayed
-ClientAliveInterval 900
-ClientAliveCountMax 0
+ClientAliveInterval 30
+ClientAliveCountMax 99999
 #ShowPatchLevel no
 #UseDNS yes
 #PidFile /var/run/sshd.pid
