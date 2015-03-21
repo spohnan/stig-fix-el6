@@ -104,14 +104,14 @@ Defaults:ALL timestamp_timeout=5
 # %sys ALL = NETWORKING, SOFTWARE, SERVICES, STORAGE, DELEGATING, PROCESSES, LOCATE, DRIVERS
 
 ## Allows people in group wheel to run all commands
-%wheel	ALL=(ALL)	ALL
+#%wheel	ALL=(ALL)	ALL
 
 ## Auditor Role ISSO
 Cmnd_Alias AUDIT = /sbin/aureport, /sbin/ausearch, /usr/sbin/logwatch, /bin/ls, /bin/more, /bin/grep, /usr/bin/less, /usr/bin/tail, /usr/bin/head, /usr/bin/who, /usr/bin/last, /usr/bin/file
 %isso	ALL=(root)	AUDIT
 
 ## Same thing without a password
-# %wheel	ALL=(ALL)	NOPASSWD: ALL
+%wheel	ALL=(ALL)	NOPASSWD: ALL
 
 ## Allows members of the users group to mount and unmount the 
 ## cdrom as root
