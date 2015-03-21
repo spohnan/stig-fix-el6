@@ -37,7 +37,7 @@ chmod 0700 /etc/cron.daily/unowned_files
 fi
 
 ## Make SELinux configuration settings immutable
-chattr +i /etc/selinux/config
+#chattr +i /etc/selinux/config
 
 #####  rsyslog (NIST 800-53: CCE-18095-0, CCE-18240-2, CCE-17857-4)
 chmod 600 /etc/rsyslog.conf
