@@ -42,7 +42,7 @@ LoginGraceTime 2m
 PermitRootLogin no
 StrictModes yes
 MaxAuthTries 3
-MaxSessions 3
+MaxSessions 6
 
 #RSAAuthentication yes
 #PubkeyAuthentication yes
